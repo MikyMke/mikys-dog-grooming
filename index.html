@@ -1,38 +1,89 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miky''s Dog Grooming</title>
+    <meta name="theme-color" content="#b85c4a">
+    <meta name="description" content="Miky's Dog Grooming offers calm, one-to-one dog grooming in Stoke-on-Trent. Full grooms, bath & dry, nail trimming and creative styling, by appointment.">
+    <title>Miky's Dog Grooming | Dog Groomer in Stoke-on-Trent</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Miky's Dog Grooming",
+        "image": "image/homepage/dog6.jpg",
+        "telephone": "+447366054811",
+        "priceRange": "££",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Stoke-on-Trent",
+            "addressCountry": "GB"
+        },
+        "areaServed": "Stoke-on-Trent",
+        "openingHours": "By appointment"
+    }
+    </script>
 </head>
-<body>
+<body id="top">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a href="#top" class="nav-logo">
+                <img src="favicon.svg" alt="" class="nav-logo-icon" width="28" height="28">
+                <span>Miky's Dog Grooming</span>
+            </a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why-choose">Why Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="tel:+447366054811" class="nav-cta">Call Now</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <header class="hero">
         <div class="hero-content">
             <div>
                 <p class="eyebrow">Professional Dog Grooming</p>
-                <h1>Miky''s Dog Grooming</h1>
+                <h1>Miky's Dog Grooming</h1>
                 <p class="hero-copy">Gentle, one-to-one grooming in Stoke-on-Trent, focused on calm care and happy pets.</p>
-                <a href="#contact" class="button button-primary">Book an Appointment</a>
+                <div class="hero-actions">
+                    <a href="#contact" class="button button-primary">Book an Appointment</a>
+                    <a href="tel:+447366054811" class="button button-secondary">Call Miky</a>
+                </div>
             </div>
             <div class="hero-image">
-                <img src="image/homepage/dog6.png" alt="Happy groomed dog" loading="lazy">
+                <img src="image/homepage/dog6.jpg" alt="White dog with creative pink colour accents on its ears and paws after grooming" width="800" height="1000" loading="lazy">
             </div>
         </div>
     </header>
 
-    <main>
+    <main id="main-content">
         <section id="about" class="section section-about">
             <div class="section-inner">
                 <h2>About Me</h2>
                 <div class="about-grid">
                     <div class="about-text">
-                        <p>Hi, I''m Miky. I offer calm, one-to-one dog grooming sessions in a relaxed home environment. Every dog receives personal attention, gentle handling, and a tailored approach.</p>
+                        <p>Hi, I'm Miky. I offer calm, one-to-one dog grooming sessions in a relaxed home environment. Every dog receives personal attention, gentle handling, and a tailored approach.</p>
                         <p>Whether your pet needs a full groom, a quick bath, or a careful nail trim, I make sure each visit is stress-free and comfortable.</p>
                     </div>
                     <div class="about-photo">
-                        <img src="image/homepage/aboutme.png" alt="Miky with a dog" loading="lazy">
+                        <img src="image/homepage/aboutme.jpg" alt="Miky's Dog Grooming logo illustration of Miky with grooming tools alongside a Shih Tzu and a poodle" width="820" height="820" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -40,86 +91,67 @@
 
         <section id="services" class="section section-services">
             <div class="section-inner">
-                <h2>Services</h2>
+                <h2>Services & Pricing</h2>
                 <div class="services-grid">
                     <div class="card">
                         <h3>Full Groom</h3>
                         <p>Complete bathing, drying, haircut, styling, ear clean and nails.</p>
+                        <ul class="service-price-list">
+                            <li><span>Small dog</span><span>£35</span></li>
+                            <li><span>Medium dog</span><span>£45</span></li>
+                            <li><span>Large dog</span><span>£55</span></li>
+                        </ul>
                     </div>
                     <div class="card">
                         <h3>Bath & Dry</h3>
                         <p>Gentle shampoo, conditioning and careful drying for a soft finish.</p>
+                        <p class="service-price">From £20</p>
                     </div>
                     <div class="card">
                         <h3>Nail Trimming</h3>
                         <p>Safe, precise trimming to keep your dog comfortable and healthy.</p>
+                        <p class="service-price">From £5</p>
                     </div>
                     <div class="card">
                         <h3>Puppy Introduction</h3>
                         <p>Slow, reassuring sessions to help young dogs feel calm and confident.</p>
+                        <p class="service-price">Price on consultation</p>
+                    </div>
+                    <div class="card">
+                        <h3>Creative Colour Add-On</h3>
+                        <p>Fun, pet-safe colour accents on ears, paws or tail — a playful finishing touch added to any groom.</p>
+                        <p class="service-price">Price on consultation</p>
                     </div>
                 </div>
+                <p class="pricing-note">Final price may vary depending on coat condition, size, behaviour and grooming needs.</p>
             </div>
         </section>
 
         <section id="why-choose" class="section section-why-choose">
             <div class="section-inner">
-                <h2>Why Choose Miky''s Dog Grooming?</h2>
+                <h2>Why Choose Miky's Dog Grooming?</h2>
                 <div class="features-grid">
                     <div class="feature-card">
-                        <div class="feature-icon">🐶</div>
+                        <div class="feature-icon" aria-hidden="true">🐶</div>
                         <h3>One-to-One Grooming</h3>
                         <p>Your dog receives my full attention throughout the appointment.</p>
                     </div>
                     <div class="feature-card">
-                        <div class="feature-icon">🏡</div>
+                        <div class="feature-icon" aria-hidden="true">🏡</div>
                         <h3>Calm Home Environment</h3>
                         <p>A quiet and relaxed setting with no busy salon atmosphere.</p>
                     </div>
                     <div class="feature-card">
-                        <div class="feature-icon">❤️</div>
+                        <div class="feature-icon" aria-hidden="true">❤️</div>
                         <h3>Gentle Handling</h3>
                         <p>Patience, kindness and comfort come first.</p>
                     </div>
                     <div class="feature-card">
-                        <div class="feature-icon">✨</div>
+                        <div class="feature-icon" aria-hidden="true">✨</div>
                         <h3>Personalised Service</h3>
-                        <p>Each groom is tailored to your dog''s needs and coat type.</p>
+                        <p>Each groom is tailored to your dog's needs and coat type.</p>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section id="pricing" class="section section-pricing">
-            <div class="section-inner">
-                <h2>Services & Starting Prices</h2>
-                <div class="pricing-grid">
-                    <div class="price-card">
-                        <h3>Bath & Dry</h3>
-                        <p class="price">From £20</p>
-                    </div>
-                    <div class="price-card">
-                        <h3>Small Dog Full Groom</h3>
-                        <p class="price">From £35</p>
-                    </div>
-                    <div class="price-card">
-                        <h3>Medium Dog Full Groom</h3>
-                        <p class="price">From £45</p>
-                    </div>
-                    <div class="price-card">
-                        <h3>Large Dog Full Groom</h3>
-                        <p class="price">From £55</p>
-                    </div>
-                    <div class="price-card">
-                        <h3>Nail Trim</h3>
-                        <p class="price">From £5</p>
-                    </div>
-                    <div class="price-card">
-                        <h3>Creative Colour Add-On</h3>
-                        <p class="price">Price on consultation</p>
-                    </div>
-                </div>
-                <p class="pricing-note">Final price may vary depending on coat condition, size, behaviour and grooming needs.</p>
             </div>
         </section>
 
@@ -128,15 +160,52 @@
                 <h2>Gallery</h2>
                 <p class="gallery-intro">A few examples of happy dogs after a grooming session.</p>
                 <div class="gallery-grid">
-                    <img src="image/homepage/dog1.png" alt="Groomed dog" loading="lazy">
-                    <img src="image/homepage/dog2.png" alt="Groomed dog" loading="lazy">
-                    <img src="image/homepage/dog3.png" alt="Groomed dog" loading="lazy">
-                    <img src="image/homepage/dog4.png" alt="Groomed dog" loading="lazy">
-                    <img src="image/homepage/dog5.png" alt="Groomed dog" loading="lazy">
-                    <img src="image/homepage/dog6.png" alt="Groomed dog" loading="lazy">
+                    <a href="#lightbox-dog1" class="gallery-item">
+                        <img src="image/homepage/dog1.jpg" alt="Freshly groomed grey and white poodle mix sitting on the grooming table" width="750" height="1000" loading="lazy">
+                    </a>
+                    <a href="#lightbox-dog2" class="gallery-item">
+                        <img src="image/homepage/dog2.jpg" alt="Cream poodle mix with a fluffy topknot trim and red collar after grooming" width="750" height="1000" loading="lazy">
+                    </a>
+                    <a href="#lightbox-dog3" class="gallery-item">
+                        <img src="image/homepage/dog3.jpg" alt="Apricot poodle mix with a neat teddy-bear trim standing on the grooming table" width="750" height="1000" loading="lazy">
+                    </a>
+                    <a href="#lightbox-dog4" class="gallery-item">
+                        <img src="image/homepage/dog4.jpg" alt="White Maltese-type dog with fluffy ears and a pink bow after grooming" width="750" height="1000" loading="lazy">
+                    </a>
+                    <a href="#lightbox-dog5" class="gallery-item">
+                        <img src="image/homepage/dog5.jpg" alt="Small terrier mix relaxing on a red towel after grooming" width="750" height="1000" loading="lazy">
+                    </a>
+                    <a href="#lightbox-dog6" class="gallery-item">
+                        <img src="image/homepage/dog6.jpg" alt="White dog with creative pink colour accents on its ears and paws" width="800" height="1000" loading="lazy">
+                    </a>
                 </div>
             </div>
         </section>
+
+        <div id="lightbox-dog1" class="lightbox">
+            <a href="#gallery" class="lightbox-close" aria-label="Close">&times;</a>
+            <img src="image/homepage/dog1.jpg" alt="Freshly groomed grey and white poodle mix sitting on the grooming table">
+        </div>
+        <div id="lightbox-dog2" class="lightbox">
+            <a href="#gallery" class="lightbox-close" aria-label="Close">&times;</a>
+            <img src="image/homepage/dog2.jpg" alt="Cream poodle mix with a fluffy topknot trim and red collar after grooming">
+        </div>
+        <div id="lightbox-dog3" class="lightbox">
+            <a href="#gallery" class="lightbox-close" aria-label="Close">&times;</a>
+            <img src="image/homepage/dog3.jpg" alt="Apricot poodle mix with a neat teddy-bear trim standing on the grooming table">
+        </div>
+        <div id="lightbox-dog4" class="lightbox">
+            <a href="#gallery" class="lightbox-close" aria-label="Close">&times;</a>
+            <img src="image/homepage/dog4.jpg" alt="White Maltese-type dog with fluffy ears and a pink bow after grooming">
+        </div>
+        <div id="lightbox-dog5" class="lightbox">
+            <a href="#gallery" class="lightbox-close" aria-label="Close">&times;</a>
+            <img src="image/homepage/dog5.jpg" alt="Small terrier mix relaxing on a red towel after grooming">
+        </div>
+        <div id="lightbox-dog6" class="lightbox">
+            <a href="#gallery" class="lightbox-close" aria-label="Close">&times;</a>
+            <img src="image/homepage/dog6.jpg" alt="White dog with creative pink colour accents on its ears and paws">
+        </div>
 
         <section id="testimonials" class="section section-testimonials">
             <div class="section-inner">
@@ -164,8 +233,9 @@
         <section id="contact" class="section section-contact">
             <div class="section-inner">
                 <h2>Contact</h2>
-                <p>To book an appointment or ask a question, please reach out by phone.</p>
-                <p><strong>Phone:</strong> 07366054811</p>
+                <p>To book an appointment or ask a question, please reach out by phone or WhatsApp.</p>
+                <p><strong>Phone:</strong> <a href="tel:+447366054811">07366054811</a></p>
+                <p><strong>Hours:</strong> By appointment — contact to arrange a time.</p>
                 <p><strong>Location:</strong> Stoke-on-Trent</p>
             </div>
         </section>
@@ -176,7 +246,7 @@
     </a>
 
     <footer class="site-footer">
-        <p>© 2026 Miky''s Dog Grooming</p>
+        <p>© 2026 Miky's Dog Grooming</p>
     </footer>
 
 </body>
