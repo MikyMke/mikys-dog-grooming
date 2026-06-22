@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="style.css">
     <script type="application/ld+json">
     {
@@ -91,39 +92,78 @@
 
         <section id="services" class="section section-services">
             <div class="section-inner">
-                <h2>Services & Pricing</h2>
-                <div class="services-grid">
-                    <div class="card">
-                        <h3>Full Groom</h3>
-                        <p>Complete bathing, drying, haircut, styling, ear clean and nails.</p>
-                        <ul class="service-price-list">
-                            <li><span>Small dog</span><span>£35</span></li>
-                            <li><span>Medium dog</span><span>£45</span></li>
-                            <li><span>Large dog</span><span>£55</span></li>
+                <div class="pricing-card">
+                    <h2 class="pricing-title">Services &amp; Pricing</h2>
+
+                    <div class="price-group price-group-featured">
+                        <h3 class="price-group-title">Full Groom</h3>
+                        <p class="price-group-desc">Complete bathing, drying, haircut, styling, ear clean and nails.</p>
+                        <ul class="price-list">
+                            <li class="price-row">
+                                <span class="price-name">Small Dog</span>
+                                <span class="price-dots" aria-hidden="true"></span>
+                                <span class="price-value">£35</span>
+                            </li>
+                            <li class="price-row">
+                                <span class="price-name">Medium Dog</span>
+                                <span class="price-dots" aria-hidden="true"></span>
+                                <span class="price-value">£45</span>
+                            </li>
+                            <li class="price-row">
+                                <span class="price-name">Large Dog</span>
+                                <span class="price-dots" aria-hidden="true"></span>
+                                <span class="price-value">£55</span>
+                            </li>
                         </ul>
                     </div>
-                    <div class="card">
-                        <h3>Bath & Dry</h3>
-                        <p>Gentle shampoo, conditioning and careful drying for a soft finish.</p>
-                        <p class="service-price">From £20</p>
-                    </div>
-                    <div class="card">
-                        <h3>Nail Trimming</h3>
-                        <p>Safe, precise trimming to keep your dog comfortable and healthy.</p>
-                        <p class="service-price">From £5</p>
-                    </div>
-                    <div class="card">
-                        <h3>Puppy Introduction</h3>
-                        <p>Slow, reassuring sessions to help young dogs feel calm and confident.</p>
-                        <p class="service-price">Price on consultation</p>
-                    </div>
-                    <div class="card">
-                        <h3>Creative Colour Add-On</h3>
-                        <p>Fun, pet-safe colour accents on ears, paws or tail — a playful finishing touch added to any groom.</p>
-                        <p class="service-price">Price on consultation</p>
-                    </div>
+
+                    <div class="price-divider" role="separator" aria-hidden="true"></div>
+
+                    <ul class="price-list">
+                        <li class="price-row">
+                            <span class="price-name">Bath &amp; Dry</span>
+                            <span class="price-dots" aria-hidden="true"></span>
+                            <span class="price-value">From £20</span>
+                        </li>
+                        <li class="price-row">
+                            <span class="price-name">Nail Trimming</span>
+                            <span class="price-dots" aria-hidden="true"></span>
+                            <span class="price-value">From £5</span>
+                        </li>
+                        <li class="price-row">
+                            <span class="price-name">Puppy Introduction</span>
+                            <span class="price-dots" aria-hidden="true"></span>
+                            <span class="price-value">Price on consultation</span>
+                        </li>
+                        <li class="price-row">
+                            <span class="price-name">Creative Colour</span>
+                            <span class="price-dots" aria-hidden="true"></span>
+                            <span class="price-value">From £10</span>
+                        </li>
+                    </ul>
+
+                    <p class="pricing-note">Final price may vary depending on coat condition, size, behaviour and grooming needs.</p>
                 </div>
-                <p class="pricing-note">Final price may vary depending on coat condition, size, behaviour and grooming needs.</p>
+            </div>
+        </section>
+
+        <section id="follow" class="section section-follow">
+            <div class="section-inner">
+                <div class="follow-card">
+                    <h2 class="follow-title">Follow Miky's Dog Grooming</h2>
+                    <div class="social-buttons">
+                        <a href="#" class="social-button" aria-label="Follow Miky's Dog Grooming on Facebook" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="social-button" aria-label="Follow Miky's Dog Grooming on Instagram" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="social-button" aria-label="Follow Miky's Dog Grooming on TikTok" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <p class="follow-text">Follow our grooming journey and see our latest transformations.</p>
+                </div>
             </div>
         </section>
 
